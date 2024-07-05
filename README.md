@@ -1,4 +1,4 @@
-An app to manage all your Finances 
+An app to manage all your Finances (Under Develpoment)
 
 Overview
 
