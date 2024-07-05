@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71CFFEC42C37BFB300DAED3A /* PennyPerfectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFEC32C37BFB300DAED3A /* PennyPerfectApp.swift */; };
+		71CFFEC82C37BFB400DAED3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEC72C37BFB400DAED3A /* Assets.xcassets */; };
+		71CFFECB2C37BFB400DAED3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFECA2C37BFB400DAED3A /* Preview Assets.xcassets */; };
+		71CFFED62C37BFB500DAED3A /* PennyPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFED52C37BFB500DAED3A /* PennyPerfectTests.swift */; };
+		71CFFEE02C37BFB500DAED3A /* PennyPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFEDF2C37BFB500DAED3A /* PennyPerfectUITests.swift */; };
+		71CFFEE22C37BFB500DAED3A /* PennyPerfectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFEE12C37BFB500DAED3A /* PennyPerfectUITestsLaunchTests.swift */; };
+		71CFFEF32C37BFD000DAED3A /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEEE2C37BFD000DAED3A /* Inter-Bold.ttf */; };
+		71CFFEF42C37BFD000DAED3A /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEEE2C37BFD000DAED3A /* Inter-Bold.ttf */; };
+		71CFFEF52C37BFD000DAED3A /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEEE2C37BFD000DAED3A /* Inter-Bold.ttf */; };
+		71CFFEF62C37BFD000DAED3A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEEF2C37BFD000DAED3A /* Inter-Medium.ttf */; };
+		71CFFEF72C37BFD000DAED3A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEEF2C37BFD000DAED3A /* Inter-Medium.ttf */; };
+		71CFFEF82C37BFD000DAED3A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEEF2C37BFD000DAED3A /* Inter-Medium.ttf */; };
+		71CFFEF92C37BFD000DAED3A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEF02C37BFD000DAED3A /* Inter-Regular.ttf */; };
+		71CFFEFA2C37BFD000DAED3A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEF02C37BFD000DAED3A /* Inter-Regular.ttf */; };
+		71CFFEFB2C37BFD000DAED3A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEF02C37BFD000DAED3A /* Inter-Regular.ttf */; };
+		71CFFEFC2C37BFD000DAED3A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEF12C37BFD000DAED3A /* Inter-SemiBold.ttf */; };
+		71CFFEFD2C37BFD000DAED3A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEF12C37BFD000DAED3A /* Inter-SemiBold.ttf */; };
+		71CFFEFE2C37BFD000DAED3A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71CFFEF12C37BFD000DAED3A /* Inter-SemiBold.ttf */; };
+		71CFFF012C37C07500DAED3A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF002C37C07500DAED3A /* SignUpView.swift */; };
+		71CFFF022C37C07500DAED3A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF002C37C07500DAED3A /* SignUpView.swift */; };
+		71CFFF032C37C07500DAED3A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF002C37C07500DAED3A /* SignUpView.swift */; };
+		71CFFF062C37C20800DAED3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF052C37C20800DAED3A /* HomeView.swift */; };
+		71CFFF072C37C20800DAED3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF052C37C20800DAED3A /* HomeView.swift */; };
+		71CFFF082C37C20800DAED3A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF052C37C20800DAED3A /* HomeView.swift */; };
+		71CFFF0A2C37C3BC00DAED3A /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF092C37C3BC00DAED3A /* GetStartedView.swift */; };
+		71CFFF0B2C37C3BC00DAED3A /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF092C37C3BC00DAED3A /* GetStartedView.swift */; };
+		71CFFF0C2C37C3BC00DAED3A /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF092C37C3BC00DAED3A /* GetStartedView.swift */; };
+		71CFFF122C3812BD00DAED3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF112C3812BD00DAED3A /* ContentView.swift */; };
+		71CFFF132C3812BD00DAED3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF112C3812BD00DAED3A /* ContentView.swift */; };
+		71CFFF142C3812BD00DAED3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF112C3812BD00DAED3A /* ContentView.swift */; };
+		71CFFF172C38158A00DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF162C38158A00DAED3A /* SwiftUICharts */; };
+		71CFFF192C3815A200DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF182C3815A200DAED3A /* SwiftUICharts */; };
+		71CFFF1B2C3815AF00DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF1A2C3815AF00DAED3A /* SwiftUICharts */; };
+		71CFFF1E2C3815DD00DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */; };
+		71CFFF1F2C3815DD00DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */; };
+		71CFFF202C3815DD00DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */; };
+		71CFFF222C38160F00DAED3A /* ExpenseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */; };
+		71CFFF232C38161000DAED3A /* ExpenseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */; };
+		71CFFF242C38161000DAED3A /* ExpenseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71CFFED22C37BFB500DAED3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CFFEB82C37BFB300DAED3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CFFEBF2C37BFB300DAED3A;
+			remoteInfo = PennyPerfect;
+		};
+		71CFFEDC2C37BFB500DAED3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CFFEB82C37BFB300DAED3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CFFEBF2C37BFB300DAED3A;
+			remoteInfo = PennyPerfect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71CFFEC02C37BFB300DAED3A /* PennyPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFFEC32C37BFB300DAED3A /* PennyPerfectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyPerfectApp.swift; sourceTree = "<group>"; };
+		71CFFEC72C37BFB400DAED3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71CFFECA2C37BFB400DAED3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71CFFECC2C37BFB400DAED3A /* PennyPerfect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PennyPerfect.entitlements; sourceTree = "<group>"; };
+		71CFFED12C37BFB500DAED3A /* PennyPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFFED52C37BFB500DAED3A /* PennyPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyPerfectTests.swift; sourceTree = "<group>"; };
+		71CFFEDB2C37BFB500DAED3A /* PennyPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CFFEDF2C37BFB500DAED3A /* PennyPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyPerfectUITests.swift; sourceTree = "<group>"; };
+		71CFFEE12C37BFB500DAED3A /* PennyPerfectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyPerfectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71CFFEEE2C37BFD000DAED3A /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		71CFFEEF2C37BFD000DAED3A /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		71CFFEF02C37BFD000DAED3A /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		71CFFEF12C37BFD000DAED3A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		71CFFF002C37C07500DAED3A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		71CFFF052C37C20800DAED3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		71CFFF092C37C3BC00DAED3A /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		71CFFF112C3812BD00DAED3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CFFEBD2C37BFB300DAED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFF172C38158A00DAED3A /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFFECE2C37BFB500DAED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFF192C3815A200DAED3A /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFFED82C37BFB500DAED3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFF1B2C3815AF00DAED3A /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71CFFEB72C37BFB300DAED3A = {
+			isa = PBXGroup;
+			children = (
+				71CFFEC22C37BFB300DAED3A /* PennyPerfect */,
+				71CFFED42C37BFB500DAED3A /* PennyPerfectTests */,
+				71CFFEDE2C37BFB500DAED3A /* PennyPerfectUITests */,
+				71CFFEC12C37BFB300DAED3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71CFFEC12C37BFB300DAED3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFEC02C37BFB300DAED3A /* PennyPerfect.app */,
+				71CFFED12C37BFB500DAED3A /* PennyPerfectTests.xctest */,
+				71CFFEDB2C37BFB500DAED3A /* PennyPerfectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CFFEC22C37BFB300DAED3A /* PennyPerfect */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFF1C2C3815C900DAED3A /* Model */,
+				71CFFF042C37C1F500DAED3A /* HomeTab */,
+				71CFFEFF2C37C05D00DAED3A /* SignUp */,
+				71CFFEC32C37BFB300DAED3A /* PennyPerfectApp.swift */,
+				71CFFF112C3812BD00DAED3A /* ContentView.swift */,
+				71CFFEC72C37BFB400DAED3A /* Assets.xcassets */,
+				71CFFECC2C37BFB400DAED3A /* PennyPerfect.entitlements */,
+				71CFFEF22C37BFD000DAED3A /* Font */,
+				71CFFEC92C37BFB400DAED3A /* Preview Content */,
+			);
+			path = PennyPerfect;
+			sourceTree = "<group>";
+		};
+		71CFFEC92C37BFB400DAED3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFECA2C37BFB400DAED3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		71CFFED42C37BFB500DAED3A /* PennyPerfectTests */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFED52C37BFB500DAED3A /* PennyPerfectTests.swift */,
+			);
+			path = PennyPerfectTests;
+			sourceTree = "<group>";
+		};
+		71CFFEDE2C37BFB500DAED3A /* PennyPerfectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFEDF2C37BFB500DAED3A /* PennyPerfectUITests.swift */,
+				71CFFEE12C37BFB500DAED3A /* PennyPerfectUITestsLaunchTests.swift */,
+			);
+			path = PennyPerfectUITests;
+			sourceTree = "<group>";
+		};
+		71CFFEF22C37BFD000DAED3A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFEEE2C37BFD000DAED3A /* Inter-Bold.ttf */,
+				71CFFEEF2C37BFD000DAED3A /* Inter-Medium.ttf */,
+				71CFFEF02C37BFD000DAED3A /* Inter-Regular.ttf */,
+				71CFFEF12C37BFD000DAED3A /* Inter-SemiBold.ttf */,
+			);
+			name = Font;
+			path = "../../../../Downloads/montly_expenses_trackizer_app_swiftui-main/Trackizer/Font";
+			sourceTree = "<group>";
+		};
+		71CFFEFF2C37C05D00DAED3A /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFF002C37C07500DAED3A /* SignUpView.swift */,
+				71CFFF092C37C3BC00DAED3A /* GetStartedView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		71CFFF042C37C1F500DAED3A /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFF052C37C20800DAED3A /* HomeView.swift */,
+				71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		71CFFF1C2C3815C900DAED3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71CFFEBF2C37BFB300DAED3A /* PennyPerfect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CFFEE52C37BFB500DAED3A /* Build configuration list for PBXNativeTarget "PennyPerfect" */;
+			buildPhases = (
+				71CFFEBC2C37BFB300DAED3A /* Sources */,
+				71CFFEBD2C37BFB300DAED3A /* Frameworks */,
+				71CFFEBE2C37BFB300DAED3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyPerfect;
+			packageProductDependencies = (
+				71CFFF162C38158A00DAED3A /* SwiftUICharts */,
+			);
+			productName = PennyPerfect;
+			productReference = 71CFFEC02C37BFB300DAED3A /* PennyPerfect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71CFFED02C37BFB500DAED3A /* PennyPerfectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CFFEE82C37BFB500DAED3A /* Build configuration list for PBXNativeTarget "PennyPerfectTests" */;
+			buildPhases = (
+				71CFFECD2C37BFB500DAED3A /* Sources */,
+				71CFFECE2C37BFB500DAED3A /* Frameworks */,
+				71CFFECF2C37BFB500DAED3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CFFED32C37BFB500DAED3A /* PBXTargetDependency */,
+			);
+			name = PennyPerfectTests;
+			packageProductDependencies = (
+				71CFFF182C3815A200DAED3A /* SwiftUICharts */,
+			);
+			productName = PennyPerfectTests;
+			productReference = 71CFFED12C37BFB500DAED3A /* PennyPerfectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71CFFEDA2C37BFB500DAED3A /* PennyPerfectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CFFEEB2C37BFB500DAED3A /* Build configuration list for PBXNativeTarget "PennyPerfectUITests" */;
+			buildPhases = (
+				71CFFED72C37BFB500DAED3A /* Sources */,
+				71CFFED82C37BFB500DAED3A /* Frameworks */,
+				71CFFED92C37BFB500DAED3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CFFEDD2C37BFB500DAED3A /* PBXTargetDependency */,
+			);
+			name = PennyPerfectUITests;
+			packageProductDependencies = (
+				71CFFF1A2C3815AF00DAED3A /* SwiftUICharts */,
+			);
+			productName = PennyPerfectUITests;
+			productReference = 71CFFEDB2C37BFB500DAED3A /* PennyPerfectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CFFEB82C37BFB300DAED3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					71CFFEBF2C37BFB300DAED3A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					71CFFED02C37BFB500DAED3A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 71CFFEBF2C37BFB300DAED3A;
+					};
+					71CFFEDA2C37BFB500DAED3A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 71CFFEBF2C37BFB300DAED3A;
+					};
+				};
+			};
+			buildConfigurationList = 71CFFEBB2C37BFB300DAED3A /* Build configuration list for PBXProject "PennyPerfect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71CFFEB72C37BFB300DAED3A;
+			packageReferences = (
+				71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 71CFFEC12C37BFB300DAED3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CFFEBF2C37BFB300DAED3A /* PennyPerfect */,
+				71CFFED02C37BFB500DAED3A /* PennyPerfectTests */,
+				71CFFEDA2C37BFB500DAED3A /* PennyPerfectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CFFEBE2C37BFB300DAED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFEFC2C37BFD000DAED3A /* Inter-SemiBold.ttf in Resources */,
+				71CFFEF62C37BFD000DAED3A /* Inter-Medium.ttf in Resources */,
+				71CFFEF92C37BFD000DAED3A /* Inter-Regular.ttf in Resources */,
+				71CFFEF32C37BFD000DAED3A /* Inter-Bold.ttf in Resources */,
+				71CFFECB2C37BFB400DAED3A /* Preview Assets.xcassets in Resources */,
+				71CFFEC82C37BFB400DAED3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFFECF2C37BFB500DAED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFEFD2C37BFD000DAED3A /* Inter-SemiBold.ttf in Resources */,
+				71CFFEF72C37BFD000DAED3A /* Inter-Medium.ttf in Resources */,
+				71CFFEFA2C37BFD000DAED3A /* Inter-Regular.ttf in Resources */,
+				71CFFEF42C37BFD000DAED3A /* Inter-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFFED92C37BFB500DAED3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFEFE2C37BFD000DAED3A /* Inter-SemiBold.ttf in Resources */,
+				71CFFEF82C37BFD000DAED3A /* Inter-Medium.ttf in Resources */,
+				71CFFEFB2C37BFD000DAED3A /* Inter-Regular.ttf in Resources */,
+				71CFFEF52C37BFD000DAED3A /* Inter-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CFFEBC2C37BFB300DAED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFF1E2C3815DD00DAED3A /* ExpenseModel.swift in Sources */,
+				71CFFF062C37C20800DAED3A /* HomeView.swift in Sources */,
+				71CFFF012C37C07500DAED3A /* SignUpView.swift in Sources */,
+				71CFFF122C3812BD00DAED3A /* ContentView.swift in Sources */,
+				71CFFEC42C37BFB300DAED3A /* PennyPerfectApp.swift in Sources */,
+				71CFFF222C38160F00DAED3A /* ExpenseTrackView.swift in Sources */,
+				71CFFF0A2C37C3BC00DAED3A /* GetStartedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFFECD2C37BFB500DAED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFF1F2C3815DD00DAED3A /* ExpenseModel.swift in Sources */,
+				71CFFF072C37C20800DAED3A /* HomeView.swift in Sources */,
+				71CFFF132C3812BD00DAED3A /* ContentView.swift in Sources */,
+				71CFFF0B2C37C3BC00DAED3A /* GetStartedView.swift in Sources */,
+				71CFFF022C37C07500DAED3A /* SignUpView.swift in Sources */,
+				71CFFF232C38161000DAED3A /* ExpenseTrackView.swift in Sources */,
+				71CFFED62C37BFB500DAED3A /* PennyPerfectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFFED72C37BFB500DAED3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CFFEE02C37BFB500DAED3A /* PennyPerfectUITests.swift in Sources */,
+				71CFFF242C38161000DAED3A /* ExpenseTrackView.swift in Sources */,
+				71CFFF202C3815DD00DAED3A /* ExpenseModel.swift in Sources */,
+				71CFFF082C37C20800DAED3A /* HomeView.swift in Sources */,
+				71CFFF142C3812BD00DAED3A /* ContentView.swift in Sources */,
+				71CFFF032C37C07500DAED3A /* SignUpView.swift in Sources */,
+				71CFFEE22C37BFB500DAED3A /* PennyPerfectUITestsLaunchTests.swift in Sources */,
+				71CFFF0C2C37C3BC00DAED3A /* GetStartedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71CFFED32C37BFB500DAED3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CFFEBF2C37BFB300DAED3A /* PennyPerfect */;
+			targetProxy = 71CFFED22C37BFB500DAED3A /* PBXContainerItemProxy */;
+		};
+		71CFFEDD2C37BFB500DAED3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CFFEBF2C37BFB300DAED3A /* PennyPerfect */;
+			targetProxy = 71CFFEDC2C37BFB500DAED3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71CFFEE32C37BFB500DAED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71CFFEE42C37BFB500DAED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		71CFFEE62C37BFB500DAED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PennyPerfect/PennyPerfect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PennyPerfect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sona304.finance.PennyPerfect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71CFFEE72C37BFB500DAED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PennyPerfect/PennyPerfect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PennyPerfect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sona304.finance.PennyPerfect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71CFFEE92C37BFB500DAED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sona304.finance.PennyPerfectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyPerfect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PennyPerfect";
+			};
+			name = Debug;
+		};
+		71CFFEEA2C37BFB500DAED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sona304.finance.PennyPerfectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyPerfect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PennyPerfect";
+			};
+			name = Release;
+		};
+		71CFFEEC2C37BFB500DAED3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sona304.finance.PennyPerfectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennyPerfect;
+			};
+			name = Debug;
+		};
+		71CFFEED2C37BFB500DAED3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sona304.finance.PennyPerfectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennyPerfect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CFFEBB2C37BFB300DAED3A /* Build configuration list for PBXProject "PennyPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFFEE32C37BFB500DAED3A /* Debug */,
+				71CFFEE42C37BFB500DAED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CFFEE52C37BFB500DAED3A /* Build configuration list for PBXNativeTarget "PennyPerfect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFFEE62C37BFB500DAED3A /* Debug */,
+				71CFFEE72C37BFB500DAED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CFFEE82C37BFB500DAED3A /* Build configuration list for PBXNativeTarget "PennyPerfectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFFEE92C37BFB500DAED3A /* Debug */,
+				71CFFEEA2C37BFB500DAED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CFFEEB2C37BFB500DAED3A /* Build configuration list for PBXNativeTarget "PennyPerfectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CFFEEC2C37BFB500DAED3A /* Debug */,
+				71CFFEED2C37BFB500DAED3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71CFFF162C38158A00DAED3A /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		71CFFF182C3815A200DAED3A /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		71CFFF1A2C3815AF00DAED3A /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 71CFFEB82C37BFB300DAED3A /* Project object */;
+}
