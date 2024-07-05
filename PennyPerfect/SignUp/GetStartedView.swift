@@ -17,7 +17,7 @@ struct GetStartedView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 100, height: 100)
-                    .foregroundColor(.blue)
+                    .foregroundColor(.purple)
                     .padding(.bottom, 20)
                 
                 Text("Welcome to Finance Manager")
@@ -39,7 +39,7 @@ struct GetStartedView: View {
                         .foregroundColor(.white)
                         .padding()
                         .frame(width: 200, height: 50)
-                        .background(Color.blue)
+                        .background(LinearGradient(gradient: Gradient(colors: [.purple,  .blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
                         .cornerRadius(10)
                 }
                 

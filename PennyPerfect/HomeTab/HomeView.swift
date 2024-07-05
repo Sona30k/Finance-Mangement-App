@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftUICharts
 
 struct FinanceManagerApp: App {
     var body: some Scene {
@@ -55,7 +56,8 @@ struct HomeView: View {
                         .padding(.top, 20)
 
                     NavigationLink(destination: ExpenseTrackingView()) {
-                        HomeSectionView(title: "Expense Tracking", imageName: "cart.fill")
+                        HomeSectionView(title: "Expense Tracking Page", imageName: "cart.fill")
+                            
                     }
 
                     NavigationLink(destination: BudgetPlanningView()) {
@@ -77,8 +79,10 @@ struct HomeView: View {
                     NavigationLink(destination: BlogsView()) {
                         HomeSectionView(title: "Blogs", imageName: "book.fill")
                     }
+                    
                 }
-                .padding()
+                .padding(25)
+                
             }
         }
     }
@@ -92,7 +96,7 @@ struct HomeSectionView: View {
         HStack {
             Image(systemName: imageName)
                 .resizable()
-                .frame(width: 40, height: 40)
+                .frame(width: 30, height: 30)
                 .foregroundColor(.white)
                 .padding()
 
@@ -103,46 +107,21 @@ struct HomeSectionView: View {
             Spacer()
         }
         .padding()
-        .background(Color.blue)
-        .cornerRadius(10)
+        .background(LinearGradient(gradient: Gradient(colors: [.purple,  .blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
+       
+        .cornerRadius(15)
     }
 }
 
-struct ExpenseTrackingView: View {
-    var body: some View {
-        Text("Expense Tracking View")
-    }
-}
 
-struct BudgetPlanningView: View {
-    var body: some View {
-        Text("Budget Planning View")
-    }
-}
 
-struct SavingsView: View {
-    var body: some View {
-        Text("Savings View")
-    }
-}
 
-struct InvestmentsView: View {
-    var body: some View {
-        Text("Investments View")
-    }
-}
 
-struct FireCalculatorView: View {
-    var body: some View {
-        Text("FIRE Calculator View")
-    }
-}
 
-struct BlogsView: View {
-    var body: some View {
-        Text("Blogs View")
-    }
-}
+
+
+
+
 
 struct SearchView: View {
     var body: some View {

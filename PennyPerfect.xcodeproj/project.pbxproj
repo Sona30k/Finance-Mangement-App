@@ -38,14 +38,41 @@
 		71CFFF132C3812BD00DAED3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF112C3812BD00DAED3A /* ContentView.swift */; };
 		71CFFF142C3812BD00DAED3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF112C3812BD00DAED3A /* ContentView.swift */; };
 		71CFFF172C38158A00DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF162C38158A00DAED3A /* SwiftUICharts */; };
-		71CFFF192C3815A200DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF182C3815A200DAED3A /* SwiftUICharts */; };
-		71CFFF1B2C3815AF00DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF1A2C3815AF00DAED3A /* SwiftUICharts */; };
-		71CFFF1E2C3815DD00DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */; };
-		71CFFF1F2C3815DD00DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */; };
-		71CFFF202C3815DD00DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */; };
-		71CFFF222C38160F00DAED3A /* ExpenseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */; };
-		71CFFF232C38161000DAED3A /* ExpenseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */; };
-		71CFFF242C38161000DAED3A /* ExpenseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */; };
+		71CFFF272C381DB500DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF262C381DB500DAED3A /* SwiftUICharts */; };
+		71CFFF292C381DBB00DAED3A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 71CFFF282C381DBB00DAED3A /* SwiftUICharts */; };
+		71CFFF352C383F0700DAED3A /* ExpenseTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF342C383F0700DAED3A /* ExpenseTrackingView.swift */; };
+		71CFFF362C383F0700DAED3A /* ExpenseTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF342C383F0700DAED3A /* ExpenseTrackingView.swift */; };
+		71CFFF372C383F0700DAED3A /* ExpenseTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF342C383F0700DAED3A /* ExpenseTrackingView.swift */; };
+		71CFFF392C38435900DAED3A /* BudgetPlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF382C38435900DAED3A /* BudgetPlanningView.swift */; };
+		71CFFF3A2C38435900DAED3A /* BudgetPlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF382C38435900DAED3A /* BudgetPlanningView.swift */; };
+		71CFFF3B2C38435900DAED3A /* BudgetPlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF382C38435900DAED3A /* BudgetPlanningView.swift */; };
+		71CFFF3D2C385C1100DAED3A /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF3C2C385C1100DAED3A /* SavingsView.swift */; };
+		71CFFF3E2C385C1100DAED3A /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF3C2C385C1100DAED3A /* SavingsView.swift */; };
+		71CFFF3F2C385C1100DAED3A /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF3C2C385C1100DAED3A /* SavingsView.swift */; };
+		71CFFF412C385C4100DAED3A /* SavingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF402C385C4100DAED3A /* SavingsModel.swift */; };
+		71CFFF422C385C4100DAED3A /* SavingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF402C385C4100DAED3A /* SavingsModel.swift */; };
+		71CFFF432C385C4100DAED3A /* SavingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF402C385C4100DAED3A /* SavingsModel.swift */; };
+		71CFFF492C385D0E00DAED3A /* InvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF482C385D0E00DAED3A /* InvestmentsView.swift */; };
+		71CFFF4A2C385D0E00DAED3A /* InvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF482C385D0E00DAED3A /* InvestmentsView.swift */; };
+		71CFFF4B2C385D0E00DAED3A /* InvestmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF482C385D0E00DAED3A /* InvestmentsView.swift */; };
+		71CFFF4D2C385D5900DAED3A /* InvestmentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF4C2C385D5900DAED3A /* InvestmentsModel.swift */; };
+		71CFFF4E2C385D5900DAED3A /* InvestmentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF4C2C385D5900DAED3A /* InvestmentsModel.swift */; };
+		71CFFF4F2C385D5900DAED3A /* InvestmentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF4C2C385D5900DAED3A /* InvestmentsModel.swift */; };
+		71CFFF512C385DBE00DAED3A /* FireCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF502C385DBE00DAED3A /* FireCalculatorView.swift */; };
+		71CFFF522C385DBE00DAED3A /* FireCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF502C385DBE00DAED3A /* FireCalculatorView.swift */; };
+		71CFFF532C385DBE00DAED3A /* FireCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF502C385DBE00DAED3A /* FireCalculatorView.swift */; };
+		71CFFF552C385DFF00DAED3A /* FireCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF542C385DFF00DAED3A /* FireCalculatorModel.swift */; };
+		71CFFF562C385DFF00DAED3A /* FireCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF542C385DFF00DAED3A /* FireCalculatorModel.swift */; };
+		71CFFF572C385DFF00DAED3A /* FireCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF542C385DFF00DAED3A /* FireCalculatorModel.swift */; };
+		71CFFF5D2C385EBB00DAED3A /* BlogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF5C2C385EBB00DAED3A /* BlogsModel.swift */; };
+		71CFFF5E2C385EBB00DAED3A /* BlogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF5C2C385EBB00DAED3A /* BlogsModel.swift */; };
+		71CFFF5F2C385EBB00DAED3A /* BlogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF5C2C385EBB00DAED3A /* BlogsModel.swift */; };
+		71CFFF682C3929E800DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF672C3929E800DAED3A /* ExpenseModel.swift */; };
+		71CFFF692C3929E800DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF672C3929E800DAED3A /* ExpenseModel.swift */; };
+		71CFFF6A2C3929E800DAED3A /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF672C3929E800DAED3A /* ExpenseModel.swift */; };
+		71CFFF6C2C3A670A00DAED3A /* BlogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF6B2C3A670A00DAED3A /* BlogsView.swift */; };
+		71CFFF6D2C3A670A00DAED3A /* BlogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF6B2C3A670A00DAED3A /* BlogsView.swift */; };
+		71CFFF6E2C3A670A00DAED3A /* BlogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CFFF6B2C3A670A00DAED3A /* BlogsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +111,17 @@
 		71CFFF052C37C20800DAED3A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		71CFFF092C37C3BC00DAED3A /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
 		71CFFF112C3812BD00DAED3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
-		71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackView.swift; sourceTree = "<group>"; };
+		71CFFF342C383F0700DAED3A /* ExpenseTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackingView.swift; sourceTree = "<group>"; };
+		71CFFF382C38435900DAED3A /* BudgetPlanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetPlanningView.swift; sourceTree = "<group>"; };
+		71CFFF3C2C385C1100DAED3A /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
+		71CFFF402C385C4100DAED3A /* SavingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsModel.swift; sourceTree = "<group>"; };
+		71CFFF482C385D0E00DAED3A /* InvestmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsView.swift; sourceTree = "<group>"; };
+		71CFFF4C2C385D5900DAED3A /* InvestmentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsModel.swift; sourceTree = "<group>"; };
+		71CFFF502C385DBE00DAED3A /* FireCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireCalculatorView.swift; sourceTree = "<group>"; };
+		71CFFF542C385DFF00DAED3A /* FireCalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireCalculatorModel.swift; sourceTree = "<group>"; };
+		71CFFF5C2C385EBB00DAED3A /* BlogsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsModel.swift; sourceTree = "<group>"; };
+		71CFFF672C3929E800DAED3A /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		71CFFF6B2C3A670A00DAED3A /* BlogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CFFF192C3815A200DAED3A /* SwiftUICharts in Frameworks */,
+				71CFFF292C381DBB00DAED3A /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CFFF1B2C3815AF00DAED3A /* SwiftUICharts in Frameworks */,
+				71CFFF272C381DB500DAED3A /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +159,7 @@
 				71CFFED42C37BFB500DAED3A /* PennyPerfectTests */,
 				71CFFEDE2C37BFB500DAED3A /* PennyPerfectUITests */,
 				71CFFEC12C37BFB300DAED3A /* Products */,
+				71CFFF252C381DB400DAED3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,7 +239,12 @@
 			isa = PBXGroup;
 			children = (
 				71CFFF052C37C20800DAED3A /* HomeView.swift */,
-				71CFFF212C38160F00DAED3A /* ExpenseTrackView.swift */,
+				71CFFF342C383F0700DAED3A /* ExpenseTrackingView.swift */,
+				71CFFF382C38435900DAED3A /* BudgetPlanningView.swift */,
+				71CFFF3C2C385C1100DAED3A /* SavingsView.swift */,
+				71CFFF482C385D0E00DAED3A /* InvestmentsView.swift */,
+				71CFFF502C385DBE00DAED3A /* FireCalculatorView.swift */,
+				71CFFF6B2C3A670A00DAED3A /* BlogsView.swift */,
 			);
 			path = HomeTab;
 			sourceTree = "<group>";
@@ -210,9 +252,20 @@
 		71CFFF1C2C3815C900DAED3A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				71CFFF1D2C3815DD00DAED3A /* ExpenseModel.swift */,
+				71CFFF402C385C4100DAED3A /* SavingsModel.swift */,
+				71CFFF4C2C385D5900DAED3A /* InvestmentsModel.swift */,
+				71CFFF542C385DFF00DAED3A /* FireCalculatorModel.swift */,
+				71CFFF5C2C385EBB00DAED3A /* BlogsModel.swift */,
+				71CFFF672C3929E800DAED3A /* ExpenseModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		71CFFF252C381DB400DAED3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +306,7 @@
 			);
 			name = PennyPerfectTests;
 			packageProductDependencies = (
-				71CFFF182C3815A200DAED3A /* SwiftUICharts */,
+				71CFFF282C381DBB00DAED3A /* SwiftUICharts */,
 			);
 			productName = PennyPerfectTests;
 			productReference = 71CFFED12C37BFB500DAED3A /* PennyPerfectTests.xctest */;
@@ -274,7 +327,7 @@
 			);
 			name = PennyPerfectUITests;
 			packageProductDependencies = (
-				71CFFF1A2C3815AF00DAED3A /* SwiftUICharts */,
+				71CFFF262C381DB500DAED3A /* SwiftUICharts */,
 			);
 			productName = PennyPerfectUITests;
 			productReference = 71CFFEDB2C37BFB500DAED3A /* PennyPerfectUITests.xctest */;
@@ -369,12 +422,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CFFF1E2C3815DD00DAED3A /* ExpenseModel.swift in Sources */,
+				71CFFF412C385C4100DAED3A /* SavingsModel.swift in Sources */,
 				71CFFF062C37C20800DAED3A /* HomeView.swift in Sources */,
+				71CFFF5D2C385EBB00DAED3A /* BlogsModel.swift in Sources */,
+				71CFFF682C3929E800DAED3A /* ExpenseModel.swift in Sources */,
 				71CFFF012C37C07500DAED3A /* SignUpView.swift in Sources */,
+				71CFFF3D2C385C1100DAED3A /* SavingsView.swift in Sources */,
+				71CFFF4D2C385D5900DAED3A /* InvestmentsModel.swift in Sources */,
+				71CFFF392C38435900DAED3A /* BudgetPlanningView.swift in Sources */,
+				71CFFF352C383F0700DAED3A /* ExpenseTrackingView.swift in Sources */,
+				71CFFF552C385DFF00DAED3A /* FireCalculatorModel.swift in Sources */,
 				71CFFF122C3812BD00DAED3A /* ContentView.swift in Sources */,
+				71CFFF492C385D0E00DAED3A /* InvestmentsView.swift in Sources */,
+				71CFFF6C2C3A670A00DAED3A /* BlogsView.swift in Sources */,
 				71CFFEC42C37BFB300DAED3A /* PennyPerfectApp.swift in Sources */,
-				71CFFF222C38160F00DAED3A /* ExpenseTrackView.swift in Sources */,
+				71CFFF512C385DBE00DAED3A /* FireCalculatorView.swift in Sources */,
 				71CFFF0A2C37C3BC00DAED3A /* GetStartedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,12 +445,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71CFFF1F2C3815DD00DAED3A /* ExpenseModel.swift in Sources */,
+				71CFFF422C385C4100DAED3A /* SavingsModel.swift in Sources */,
 				71CFFF072C37C20800DAED3A /* HomeView.swift in Sources */,
+				71CFFF5E2C385EBB00DAED3A /* BlogsModel.swift in Sources */,
+				71CFFF692C3929E800DAED3A /* ExpenseModel.swift in Sources */,
 				71CFFF132C3812BD00DAED3A /* ContentView.swift in Sources */,
+				71CFFF3E2C385C1100DAED3A /* SavingsView.swift in Sources */,
+				71CFFF4E2C385D5900DAED3A /* InvestmentsModel.swift in Sources */,
+				71CFFF3A2C38435900DAED3A /* BudgetPlanningView.swift in Sources */,
+				71CFFF362C383F0700DAED3A /* ExpenseTrackingView.swift in Sources */,
+				71CFFF562C385DFF00DAED3A /* FireCalculatorModel.swift in Sources */,
 				71CFFF0B2C37C3BC00DAED3A /* GetStartedView.swift in Sources */,
+				71CFFF4A2C385D0E00DAED3A /* InvestmentsView.swift in Sources */,
+				71CFFF6D2C3A670A00DAED3A /* BlogsView.swift in Sources */,
 				71CFFF022C37C07500DAED3A /* SignUpView.swift in Sources */,
-				71CFFF232C38161000DAED3A /* ExpenseTrackView.swift in Sources */,
+				71CFFF522C385DBE00DAED3A /* FireCalculatorView.swift in Sources */,
 				71CFFED62C37BFB500DAED3A /* PennyPerfectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,14 +468,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CFFF3B2C38435900DAED3A /* BudgetPlanningView.swift in Sources */,
+				71CFFF3F2C385C1100DAED3A /* SavingsView.swift in Sources */,
+				71CFFF6E2C3A670A00DAED3A /* BlogsView.swift in Sources */,
 				71CFFEE02C37BFB500DAED3A /* PennyPerfectUITests.swift in Sources */,
-				71CFFF242C38161000DAED3A /* ExpenseTrackView.swift in Sources */,
-				71CFFF202C3815DD00DAED3A /* ExpenseModel.swift in Sources */,
+				71CFFF5F2C385EBB00DAED3A /* BlogsModel.swift in Sources */,
+				71CFFF532C385DBE00DAED3A /* FireCalculatorView.swift in Sources */,
+				71CFFF372C383F0700DAED3A /* ExpenseTrackingView.swift in Sources */,
+				71CFFF6A2C3929E800DAED3A /* ExpenseModel.swift in Sources */,
 				71CFFF082C37C20800DAED3A /* HomeView.swift in Sources */,
 				71CFFF142C3812BD00DAED3A /* ContentView.swift in Sources */,
+				71CFFF4F2C385D5900DAED3A /* InvestmentsModel.swift in Sources */,
 				71CFFF032C37C07500DAED3A /* SignUpView.swift in Sources */,
 				71CFFEE22C37BFB500DAED3A /* PennyPerfectUITestsLaunchTests.swift in Sources */,
 				71CFFF0C2C37C3BC00DAED3A /* GetStartedView.swift in Sources */,
+				71CFFF572C385DFF00DAED3A /* FireCalculatorModel.swift in Sources */,
+				71CFFF432C385C4100DAED3A /* SavingsModel.swift in Sources */,
+				71CFFF4B2C385D0E00DAED3A /* InvestmentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -533,6 +614,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -736,12 +818,12 @@
 			package = 71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
 		};
-		71CFFF182C3815A200DAED3A /* SwiftUICharts */ = {
+		71CFFF262C381DB500DAED3A /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
 		};
-		71CFFF1A2C3815AF00DAED3A /* SwiftUICharts */ = {
+		71CFFF282C381DBB00DAED3A /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 71CFFF152C38158A00DAED3A /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
