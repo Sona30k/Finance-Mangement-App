@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FireCalculatorView: View {
+
     @State private var currentSavings: String = ""
     @State private var annualSavings: String = ""
     @State private var rateOfReturn: String = ""

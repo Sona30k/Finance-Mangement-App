@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+
 // Define the Blog model
 struct Blog: Identifiable {
     let id = UUID()
     let title: String
     let author: String
     let link: String
+    
 }

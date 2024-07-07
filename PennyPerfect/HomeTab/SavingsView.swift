@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SavingsView: View {
+
     @State private var savingsGoals: [SavingsGoal] = [
         SavingsGoal(name: "Emergency Fund", targetAmount: 5000, currentAmount: 1500)
     ]

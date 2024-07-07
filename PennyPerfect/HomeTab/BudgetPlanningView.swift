@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BudgetPlanningView: View {
+
     @State private var incomeSources: [IncomeSource] = [IncomeSource(name: "Salary", amount: 0.0)]
     @State private var expenseCategories: [ExpenseCategory] = [ExpenseCategory(name: "Rent", amount: 0.0)]
     @State private var newIncomeSourceName: String = ""

@@ -45,7 +45,4 @@ struct BlogsView_Previews: PreviewProvider {
     }
 }
 
-#Preview {
-    BlogsView()
-}
 

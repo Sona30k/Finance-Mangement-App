@@ -1,4 +1,5 @@
 
+
 import SwiftUI
 import SwiftUICharts
 import Charts
@@ -175,4 +176,5 @@ struct ExpenseTrackingView_Previews: PreviewProvider {
     static var previews: some View {
         ExpenseTrackingView()
     }
+    
 }

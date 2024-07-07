@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct InvestmentsView: View {
+
     @State private var investments: [Investment] = [
         Investment(name: "Stock A", amountInvested: 1000, currentValue: 1200)
     ]

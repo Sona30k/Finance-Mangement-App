@@ -1,10 +1,3 @@
-//
-//  SignUpView.swift
-//  PennyPerfect
-//
-//  Created by Sona kerketta on 05/07/24.
-//
-
 import SwiftUI
 import AuthenticationServices
 
@@ -15,132 +8,151 @@ struct SignUpView: View {
     @State private var confirmPassword: String = ""
     @State private var showError: Bool = false
     @State private var errorMessage: String = ""
+    @State private var rotateAnimation = false
+    @State private var scaleAnimation = false
     
     var body: some View {
-        VStack {
-            Text("Sign Up")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding(.bottom, 20)
+        ZStack {
+            // Background Gradient
+            LinearGradient(gradient: Gradient(colors: [.black, .gray.opacity(0.8)]), startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
             
-            TextField("Username", text: $username)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .cornerRadius(5.0)
-                .padding(.bottom, 10)
-            
-            TextField("Email", text: $email)
-                .keyboardType(.emailAddress)
-                .autocapitalization(.none)
-                .textContentType(.emailAddress)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .cornerRadius(5.0)
-                .padding(.bottom, 10)
-            
-            SecureField("Password", text: $password)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .cornerRadius(5.0)
-                .padding(.bottom, 10)
-            
-            SecureField("Confirm Password", text: $confirmPassword)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .cornerRadius(5.0)
-                .padding(.bottom, 20)
-            
-            if showError {
-                Text(errorMessage)
-                    .foregroundColor(.red)
-                    .padding(.bottom, 10)
-            }
-            
-            Button(action: {
-                signUp()
-            }) {
-                Text("Sign Up with Email")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 220, height: 60)
-                    .background(Color.blue)
-                    .cornerRadius(15.0)
-            }
-            
-            Spacer().frame(height: 20)
-            
-            // Google Sign Up Button (Simplified)
-            Button(action: {
-                signUpWithGoogle()
-            }) {
-                HStack {
-                    Image(systemName: "globe")
-                    Text("Sign Up with Google")
+            // Decorative Background Shapes
+            Circle()
+                .fill(LinearGradient(gradient: Gradient(colors: [.purple.opacity(0.6), .blue.opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                .frame(width: 300, height: 300)
+                .blur(radius: 100)
+                .offset(x: -150, y: -200)
+                .rotationEffect(.degrees(rotateAnimation ? 360 : 0))
+                .scaleEffect(scaleAnimation ? 1.1 : 1.0)
+                .animation(Animation.linear(duration: 10).repeatForever(autoreverses: false), value: rotateAnimation)
+                .animation(Animation.easeInOut(duration: 6).repeatForever(autoreverses: true), value: scaleAnimation)
+                .onAppear {
+                    self.rotateAnimation.toggle()
+                    self.scaleAnimation.toggle()
                 }
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding()
-                .frame(width: 220, height: 60)
-                .background(Color.red)
-                .cornerRadius(15.0)
-            }
             
-            Spacer().frame(height: 20)
+            Circle()
+                .fill(LinearGradient(gradient: Gradient(colors: [.blue.opacity(0.5), .purple.opacity(0.5)]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                .frame(width: 200, height: 200)
+                .blur(radius: 80)
+                .offset(x: 150, y: 200)
+                .rotationEffect(.degrees(rotateAnimation ? -360 : 0))
+                .scaleEffect(scaleAnimation ? 1.1 : 1.0)
+                .animation(Animation.linear(duration: 10).repeatForever(autoreverses: false), value: rotateAnimation)
+                .animation(Animation.easeInOut(duration: 6).repeatForever(autoreverses: true), value: scaleAnimation)
             
-            // Apple Sign Up Button
-            SignInWithAppleButton(
-                .signUp,
-                onRequest: { request in
-                    // Configure the request here
-                },
-                onCompletion: { result in
-                    // Handle the result here
-                    switch result {
-                    case .success(let authorization):
-                        handleAuthorization(authorization)
-                    case .failure(let error):
-                        showError(message: error.localizedDescription)
+            VStack {
+                Text("Sign Up")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.bottom, 20)
+                    .foregroundColor(.white)
+                
+                Text("Create your account")
+                    .padding(.bottom, 20)
+                    .foregroundColor(.white)
+                
+                TextField("Username", text: $username)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .foregroundColor(.black)
+                    .cornerRadius(5.0)
+                    .padding(.bottom, 10)
+                
+                TextField("Email", text: $email)
+                    .keyboardType(.emailAddress)
+                    .autocapitalization(.none)
+                    .textContentType(.emailAddress)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .foregroundColor(.black)
+                    .cornerRadius(5.0)
+                    .padding(.bottom, 10)
+                
+                SecureField("Password", text: $password)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .foregroundColor(.white)
+                    .cornerRadius(5.0)
+                    .padding(.bottom, 10)
+                
+                SecureField("Confirm Password", text: $confirmPassword)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .foregroundColor(.white)
+                    .cornerRadius(5.0)
+                    .padding(.bottom, 20)
+                
+                if showError {
+                    Text(errorMessage)
+                        .foregroundColor(.red)
+                        .padding(.bottom, 10)
+                }
+                
+                // Submit Button
+                Button(action: {
+                    // Handle Submit Action
+                }) {
+                    Text("Submit")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: 220, height: 60)
+                        .background(LinearGradient(gradient: Gradient(colors: [.purple, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                        .cornerRadius(15.0)
+                        .shadow(color: .purple.opacity(0.3), radius: 10, x: 0, y: 10)
+                }
+                
+                Spacer().frame(height: 20)
+                
+                // Logos
+                HStack(spacing: 20) {
+                    // Apple Sign Up Button
+                    Button(action: {
+                        // Handle Apple Sign-Up Action
+                    }) {
+                        Image("apple")
+                            .resizable()
+                            .renderingMode(.original)
+                            .frame(width: 60, height: 60)
+                            .background(LinearGradient(gradient: Gradient(colors: [.yellow, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                            .cornerRadius(15)
+                            .shadow(color: .yellow.opacity(0.3), radius: 10, x: 0, y: 10)
+                    }
+                    
+                    // Google Sign Up Button
+                    Button(action: {
+                        // Handle Google Sign-Up Action
+                    }) {
+                        Image("google")
+                            .resizable()
+                            .renderingMode(.original)
+                            .frame(width: 60, height: 60)
+                            .background(LinearGradient(gradient: Gradient(colors: [.yellow, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                            .cornerRadius(15)
+                            .shadow(color: .yellow.opacity(0.3), radius: 10, x: 0, y: 10)
+                    }
+                    
+                    // Email Sign Up Button
+                    Button(action: {
+                        // Handle Email Sign-Up Action
+                    }) {
+                        Image(systemName: "envelope")
+                            .resizable()
+                            .foregroundColor(.white)
+                            .frame(width: 60, height: 60)
+                            .background(LinearGradient(gradient: Gradient(colors: [.yellow, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                            .cornerRadius(15)
+                            .shadow(color: .yellow.opacity(0.3), radius: 10, x: 0, y: 10)
                     }
                 }
-            )
-            .signInWithAppleButtonStyle(.black)
-            .frame(width: 220, height: 60)
-            .cornerRadius(15.0)
+                .padding(.top, 20)
+                
+                Spacer()
+            }
+            .padding()
         }
-        .padding()
-    }
-    
-    func signUp() {
-        // Example validation and sign-up logic
-        guard !username.isEmpty, !email.isEmpty, !password.isEmpty, !confirmPassword.isEmpty else {
-            showError(message: "All fields are required.")
-            return
-        }
-        
-        guard password == confirmPassword else {
-            showError(message: "Passwords do not match.")
-            return
-        }
-        
-        // Add your sign-up logic here (e.g., API call to register the user)
-        // For now, we'll just print to console
-        print("User signed up with username: \(username), email: \(email)")
-    }
-    
-    func signUpWithGoogle() {
-        // Implement Google Sign-Up Logic
-        print("Sign Up with Google")
-    }
-    
-    func handleAuthorization(_ authorization: ASAuthorization) {
-        // Handle Apple ID authorization
-        print("Apple ID authorization successful")
-    }
-    
-    func showError(message: String) {
-        errorMessage = message
-        showError = true
     }
 }
 
