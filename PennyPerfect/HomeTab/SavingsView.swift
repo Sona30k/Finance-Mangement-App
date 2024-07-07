@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SavingsView: View {
+<<<<<<< HEAD
     @State private var savingsGoals: [SavingsGoal] = [
         SavingsGoal(name: "Emergency Fund", targetAmount: 5000, currentAmount: 1500)
     ]
@@ -94,4 +95,13 @@ struct SavingsView_Previews: PreviewProvider {
     static var previews: some View {
         SavingsView()
     }
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    SavingsView()
+>>>>>>> main
 }

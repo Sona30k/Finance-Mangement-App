@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct InvestmentsView: View {
+<<<<<<< HEAD
     @State private var investments: [Investment] = [
         Investment(name: "Stock A", amountInvested: 1000, currentValue: 1200)
     ]
@@ -94,4 +95,13 @@ struct InvestmentsView_Previews: PreviewProvider {
     static var previews: some View {
         InvestmentsView()
     }
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    InvestmentsView()
+>>>>>>> main
 }

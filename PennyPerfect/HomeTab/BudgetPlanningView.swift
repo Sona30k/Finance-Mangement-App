@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BudgetPlanningView: View {
+<<<<<<< HEAD
     @State private var incomeSources: [IncomeSource] = [IncomeSource(name: "Salary", amount: 0.0)]
     @State private var expenseCategories: [ExpenseCategory] = [ExpenseCategory(name: "Rent", amount: 0.0)]
     @State private var newIncomeSourceName: String = ""
@@ -145,4 +146,13 @@ struct BudgetPlanningView_Previews: PreviewProvider {
     static var previews: some View {
         BudgetPlanningView()
     }
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    BudgetPlanningView()
+>>>>>>> main
 }

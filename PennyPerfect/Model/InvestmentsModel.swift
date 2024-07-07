@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+<<<<<<< HEAD
 struct Investment: Identifiable {
     let id = UUID()
     var name: String
@@ -17,3 +18,14 @@ struct Investment: Identifiable {
         currentValue - amountInvested
     }
 }
+=======
+struct InvestmentsModel: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    InvestmentsModel()
+}
+>>>>>>> main
