@@ -4,7 +4,11 @@
 //
 //  Created by Sona kerketta on 05/07/24.
 //
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
 import SwiftUI
 
 struct FireCalculator {
@@ -23,9 +27,15 @@ struct FireCalculator {
         let denominator = log(1 + rate)
         return numerator / denominator
     }
+<<<<<<< HEAD
     
 }
 
+=======
+=======
+
+import SwiftUI
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
 
 struct FireCalculatorModel: View {
     var body: some View {
@@ -35,5 +45,9 @@ struct FireCalculatorModel: View {
 
 #Preview {
     FireCalculatorModel()
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
 }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
 
 import SwiftUI
 import SwiftUICharts
@@ -176,5 +180,27 @@ struct ExpenseTrackingView_Previews: PreviewProvider {
     static var previews: some View {
         ExpenseTrackingView()
     }
+<<<<<<< HEAD
     
+=======
+=======
+//
+//  ExpenseTrackingView.swift
+//  PennyPerfect
+//
+//  Created by Sona kerketta on 05/07/24.
+//
+
+import SwiftUI
+
+struct ExpenseTrackingView: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    ExpenseTrackingView()
+>>>>>>> main
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
 }

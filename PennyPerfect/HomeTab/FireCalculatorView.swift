@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct FireCalculatorView: View {
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
     @State private var currentSavings: String = ""
     @State private var annualSavings: String = ""
     @State private var rateOfReturn: String = ""
@@ -82,4 +86,16 @@ struct FireCalculatorView_Previews: PreviewProvider {
     static var previews: some View {
         FireCalculatorView()
     }
+<<<<<<< HEAD
+=======
+=======
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    FireCalculatorView()
+>>>>>>> main
+>>>>>>> 1447614b747870aca55fe3c0adeb5b4f1e325c02
 }
